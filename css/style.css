@@ -280,6 +280,29 @@ h3{
 }
 
 
+.intro__p1{
+  font-size: 47.3392px;
+  line-height: 59px;
+  color: #070707
+  font-size: 47.3392pxpx;
+  font-weight: bold;
+  font-style: normal;
+  font-family: 'Gilroy';
+}
+
+
+.intro__p2{
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Gilroy';
+  font-size:18px;
+  text-align: center;
+  font-color:#070707;
+  line-height:21.83px;
+}
+
+
+
 
 .intro__vertical{
   -webkit-transform: rotate(-90deg); 
@@ -327,21 +350,28 @@ h3{
 }
 
 .skills__wrapper{
+  display: flex;
+  flex-direction: column;
 }
 
-.skils__h{
+.skills__h{
   padding-top: 91px;
 }
-.skils__p{
+.skills__p{
   margin-top: 69.1px;
-}
-.skils__panel{
-  display: flex;
-  Justify-content:space-between;
-  margin-top: 87.27px;
+  text-align: center;
 }
 
-.skils__element{
+.skills__panel{
+  margin-top: 87.27px;
+}
+.skills__list{
+  display: flex;
+  Justify-content:space-between;
+}
+
+
+.skills__element{
     display: flex;
     flex-direction: column;
     Justify-content:center;
