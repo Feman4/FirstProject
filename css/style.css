@@ -168,8 +168,8 @@ body{
 h1{
   font-size: 47.3392px;
   line-height: 59px;
-  color: #070707
-  font-size: 47.3392pxpx;
+  color: #070707;
+  font-size: 47.3392px;
   font-weight: bold;
   font-style: normal;
   font-family: 'Gilroy';
@@ -181,7 +181,7 @@ h2{
   font-family: 'Gilroy';
   font-size:34px;
   text-align: center;
-  font-color:#070707;
+  color:#070707;
 }
 
 h3{
@@ -190,7 +190,7 @@ h3{
   font-family: 'Gilroy';
   font-size:18px;
   text-align: center;
-  font-color:#070707;
+  color:#070707;
   line-height:21.83px;
 
 }
@@ -202,7 +202,7 @@ h3{
   width: 943.61px;
   max-width: 100%;
   margin: 0 auto;
-  font-color:#070707;
+  color:#070707;
 }
 
 
@@ -297,7 +297,7 @@ h3{
   font-family: 'Gilroy';
   font-size:18px;
   text-align: center;
-  font-color:#070707;
+  color:#070707;
   line-height:21.83px;
 }
 
@@ -370,8 +370,7 @@ h3{
   Justify-content:space-between;
 }
 
-
-.skills__element{
+.skills__item{
     display: flex;
     flex-direction: column;
     Justify-content:center;
@@ -418,68 +417,28 @@ h3{
 
 }
 
-.portfolio__el{
+.portfolio__item{
   display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 99.9px;
+
 }
-.portfolio__el:first-child{
+.portfolio__item:first-child{
   margin-top: 47px;
 }
 
-.portfolio__text{
+.portfolio__link{
+  font-weight: 500;
+  font-style: normal;
+  font-family: 'Gilroy';
+  font-size:18px;
+  text-align: center;
+  color:#070707;
+  text-decoration-line: underline;
   margin-top: 44.88px;
-}
-
-
-.portfolio__link{
-  font-weight: 500;
-  font-style: normal;
-  font-family: 'Gilroy';
-  font-size:18px;
-  text-align: center;
-  color:#070707;
-  text-decoration-line: underline;
-
 } 
 
-
-/*
-.portfolio__list{
-  display: block;
-  Justify-content:center;
-  align-items: center;
-  flex-direction: column;
-
-
-}
-
-.portfolio__el{
-
-}
-.portfolio__list__img{
-  margin-top: 99.9px;
-}
-
-.portfolio__list__img:first-child{
-  margin-top: 47px;
-}
-
-
-
-.portfolio__link{
-  font-weight: 500;
-  font-style: normal;
-  font-family: 'Gilroy';
-  font-size:18px;
-  text-align: center;
-  color:#070707;
-  text-decoration-line: underline;
-
-} 
-
-*/
 
 /* contacts
 ============*/
@@ -507,11 +466,11 @@ h3{
   display: flex;
 }
 
-.contacts__iconelement{
+.contacts__iconeitem{
   margin-right: 61.35px;
 }
 
-.contacts__iconelement:last-child{
+.contacts__iconeitem:last-child{
   margin-right: 0;
 
 }
