@@ -208,22 +208,17 @@ h3{
 }
 
 .header__nav{
-  padding: 33px 0 32px;
+  padding: 33px 0;
   border-bottom: 1px solid #828282;
 }
 
 .header__list{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
-.header__item{
-  margin-right: 156px;
-}
 
-.header__item:last-child{
-  margin-right: 0px;
-}
 
 .header__link{
   font-size: 18px;
@@ -248,19 +243,23 @@ h3{
 
 .intro{
   background-color:#FFFFFF;
-  min-height: 80vh;
+  height: 100%;
   padding-top: 93px; 
+
 }
 
 
 .intro__wraper{
+  padding-top: 40px;
+  padding-bottom: 105px;
+  
 
 }
 .intro__info{
     display: flex;
     justify-content: space-between;
     align-items:flex-end;
-    padding-top: 40px;
+    
 }
 
 
@@ -282,7 +281,7 @@ h3{
   font-size:18px;
   text-align: center;
   color:#070707;
-  line-height:21.83px;
+  line-height:22px;
 }
 .IMGTEST{
   background-image: url('../img/image1.jpg');
@@ -290,6 +289,7 @@ h3{
   min-height: 21.5rem;
   background-repeat: no-repeat;
   background-position: 0 40%;
+  margin-top: 50px;
 }
 
 
@@ -317,11 +317,16 @@ h3{
 ============*/
 
 .about{
-  min-height:506px;
+  min-height:100%;
   background-color:#F6F6F6;
   display: flex;
   align-items: center;
   Justify-content:center;
+}
+
+.about__wrapper{
+  padding-top: 120px;
+  padding-bottom: : 107px;
 }
 
 .about__content{
@@ -337,17 +342,19 @@ h3{
 /* skills
 ============*/
 .skills{
-  min-height:610px;
+  min-height:100%;
   background-color:#FFFFFF;
 }
 
 .skills__wrapper{
   display: flex;
   flex-direction: column;
+  padding-top: 91px;
+  padding-bottom: 110px;
 }
 
 .skills__h{
-  padding-top: 91px;
+ 
 }
 .skills__p{
   margin-top: 69px;
@@ -398,11 +405,16 @@ h3{
 
 .portfolio{
   background-color: #F6F6F6;
-  min-height: 2253px; 
+  height: 100%; 
+}
+
+.portfolio__wrapper{
+  padding-top: 113px;
+  padding-bottom: 96px;
 }
 
 .portfolio__h{
-  padding-top: 113px;
+  
 }
 
 .portfolio__list{
@@ -435,14 +447,18 @@ h3{
 /* contacts
 ============*/
 .contacts{
-  min-height: 622px;
+  min-height: 100%;
+}
+.contact__wrapper{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 114px;
+  padding-bottom: 123px;
 }
 
 .contacts__h2{
-  padding-top: 114px;
+  
 }
 
 .contacts__h3{
@@ -518,3 +534,38 @@ h3{
 .btn--black{
   background-color:#070707;
 }
+
+
+
+/* media
+============*/
+
+@media screen and (max-width: 1200px) {
+
+}
+
+@media screen and (max-width: 1199px) {
+
+}
+
+@media screen and (max-width: 991px) {
+  .container{
+    width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .container{
+    width: 540px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  .container{
+    width: 100%;
+    padding: 0 15px;
+  }
+
+}
+
+
