@@ -162,6 +162,7 @@ body{
   font-family: 'Lato';
   font-style: normal;
   font-size: 18px;
+  line-height:1.2em;
 }
 
 
@@ -181,7 +182,6 @@ h3{
   font-size:18px;
   text-align: center;
   color:#070707;
-  line-height:22px;
 
 }
 
@@ -222,7 +222,6 @@ h3{
 
 .header__link{
   font-size: 18px;
-  line-height: 22px;
   text-decoration: none;
   color: #070707;
   opacity: 0.8;
@@ -265,7 +264,7 @@ h3{
 
 .intro__p1{
   font-size: 47px;
-  line-height: 59px;
+  line-height: 1.25em;
   color: #070707;
   font-size: 47px;
   font-weight: bold;
@@ -281,7 +280,6 @@ h3{
   font-size:18px;
   text-align: center;
   color:#070707;
-  line-height:22px;
 }
 .IMGTEST{
   background-image: url('../img/image1.jpg');
